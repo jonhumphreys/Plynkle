@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ball
   - Slot
+  - Peg
   layers:
   - Default
   - TransparentFX

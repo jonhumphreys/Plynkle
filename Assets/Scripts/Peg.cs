@@ -5,6 +5,7 @@ using UnityEngine;
 public class Peg : MonoBehaviour
 {
     public List<Sprite> PegSprites;
+    public Sounds Sounds;
 
     private int spriteNumber = 0;
     private SpriteRenderer spriteRenderer;
@@ -47,6 +48,7 @@ public class Peg : MonoBehaviour
 
     private void DestroyPeg()
     {
+        Sounds.PlayCannonSound();
         Destroy(gameObject);
     }
 

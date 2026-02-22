@@ -253,6 +253,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MouseLauncher
   Launcher: {fileID: 12011116}
+  Sounds: {fileID: 363713087}
 --- !u!1 &29266696
 GameObject:
   m_ObjectHideFlags: 0
@@ -432,6 +433,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2383717835278699723, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 363713087}
     - target: {fileID: 6314845700861642900, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
       propertyPath: m_Name
       value: PegBlue (3)
@@ -529,6 +534,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2383717835278699723, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 363713087}
     - target: {fileID: 6314845700861642900, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
       propertyPath: m_Name
       value: PegBlue (1)
@@ -807,6 +816,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2383717835278699723, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 363713087}
     - target: {fileID: 6314845700861642900, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
       propertyPath: m_Name
       value: PegBlue (4)
@@ -914,6 +927,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2383717835278699723, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 363713087}
     - target: {fileID: 6314845700861642900, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
       propertyPath: m_Name
       value: PegBlue (5)
@@ -1026,6 +1043,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2383717835278699723, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 363713087}
     - target: {fileID: 6314845700861642900, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
       propertyPath: m_Name
       value: PegBlue (9)
@@ -1119,6 +1140,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2383717835278699723, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 363713087}
     - target: {fileID: 6314845700861642900, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
       propertyPath: m_Name
       value: PegBlue (5)
@@ -1174,6 +1199,151 @@ Transform:
   - {fileID: 1554702741}
   m_Father: {fileID: 90316295}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &363713085
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 363713088}
+  - component: {fileID: 363713087}
+  - component: {fileID: 363713086}
+  m_Layer: 0
+  m_Name: Sound
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &363713086
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 363713085}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 0.5
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &363713087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 363713085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb863047d13b264a8cc541a885b55b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Sounds
+  CannonSound: {fileID: 8300000, guid: be3626659c105f849bf2f58505767788, type: 3}
+  PegDestroySound: {fileID: 8300000, guid: 819bbc6f4abef8e449fecb5ca4863b45, type: 3}
+  FireworksSound: {fileID: 8300000, guid: 3240e12917c1bc547a7cc40a2509ab3d, type: 3}
+--- !u!4 &363713088
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 363713085}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.50261, y: -3.373, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &373988667
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1222,6 +1392,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2383717835278699723, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 363713087}
     - target: {fileID: 6314845700861642900, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
       propertyPath: m_Name
       value: PegBlue (3)
@@ -1325,6 +1499,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2383717835278699723, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 363713087}
     - target: {fileID: 6314845700861642900, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
       propertyPath: m_Name
       value: PegBlue (4)
@@ -1387,6 +1565,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2383717835278699723, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 363713087}
     - target: {fileID: 6314845700861642900, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
       propertyPath: m_Name
       value: PegBlue (9)
@@ -2062,6 +2244,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2383717835278699723, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 363713087}
     - target: {fileID: 6314845700861642900, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
       propertyPath: m_Name
       value: PegBlue (8)
@@ -2213,6 +2399,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2383717835278699723, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 363713087}
     - target: {fileID: 6314845700861642900, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
       propertyPath: m_Name
       value: PegBlue (1)
@@ -2680,6 +2870,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2383717835278699723, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 363713087}
     - target: {fileID: 6314845700861642900, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
       propertyPath: m_Name
       value: PegBlue
@@ -2746,6 +2940,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2383717835278699723, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 363713087}
     - target: {fileID: 6314845700861642900, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
       propertyPath: m_Name
       value: PegBlue (1)
@@ -2889,6 +3087,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2383717835278699723, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 363713087}
     - target: {fileID: 6314845700861642900, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
       propertyPath: m_Name
       value: PegBlue (7)
@@ -3083,6 +3285,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2383717835278699723, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 363713087}
     - target: {fileID: 6314845700861642900, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
       propertyPath: m_Name
       value: PegBlue (6)
@@ -3287,6 +3493,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2383717835278699723, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 363713087}
     - target: {fileID: 6314845700861642900, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
       propertyPath: m_Name
       value: PegBlue
@@ -3439,6 +3649,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2383717835278699723, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 363713087}
     - target: {fileID: 6314845700861642900, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
       propertyPath: m_Name
       value: PegBlue (2)
@@ -3566,6 +3780,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2383717835278699723, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 363713087}
     - target: {fileID: 6314845700861642900, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
       propertyPath: m_Name
       value: PegBlue (6)
@@ -3633,6 +3851,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2383717835278699723, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 363713087}
     - target: {fileID: 6314845700861642900, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
       propertyPath: m_Name
       value: PegBlue (2)
@@ -3785,6 +4007,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2383717835278699723, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 363713087}
     - target: {fileID: 6314845700861642900, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
       propertyPath: m_Name
       value: PegBlue (7)
@@ -4002,6 +4228,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2383717835278699723, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 363713087}
     - target: {fileID: 6314845700861642900, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
       propertyPath: m_Name
       value: PegBlue (6)
@@ -4064,6 +4294,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2383717835278699723, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 363713087}
     - target: {fileID: 6314845700861642900, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
       propertyPath: m_Name
       value: PegBlue (5)
@@ -4126,6 +4360,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2383717835278699723, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 363713087}
     - target: {fileID: 6314845700861642900, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
       propertyPath: m_Name
       value: PegBlue
@@ -4188,6 +4426,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2383717835278699723, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 363713087}
     - target: {fileID: 6314845700861642900, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
       propertyPath: m_Name
       value: PegBlue (3)
@@ -4452,6 +4694,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2383717835278699723, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 363713087}
     - target: {fileID: 6314845700861642900, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
       propertyPath: m_Name
       value: PegBlue (8)
@@ -4514,6 +4760,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2383717835278699723, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 363713087}
     - target: {fileID: 6314845700861642900, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
       propertyPath: m_Name
       value: PegBlue (2)
@@ -4684,6 +4934,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2383717835278699723, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 363713087}
     - target: {fileID: 6314845700861642900, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
       propertyPath: m_Name
       value: PegBlue (9)
@@ -4883,6 +5137,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2383717835278699723, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 363713087}
     - target: {fileID: 6314845700861642900, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
       propertyPath: m_Name
       value: PegBlue (2)
@@ -4945,6 +5203,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2383717835278699723, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 363713087}
     - target: {fileID: 6314845700861642900, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
       propertyPath: m_Name
       value: PegBlue (7)
@@ -5007,6 +5269,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2383717835278699723, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 363713087}
     - target: {fileID: 6314845700861642900, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
       propertyPath: m_Name
       value: PegBlue (8)
@@ -5069,6 +5335,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2383717835278699723, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 363713087}
     - target: {fileID: 6314845700861642900, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
       propertyPath: m_Name
       value: PegBlue (9)
@@ -5371,6 +5641,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2383717835278699723, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 363713087}
     - target: {fileID: 6314845700861642900, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
       propertyPath: m_Name
       value: PegBlue (7)
@@ -5433,6 +5707,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2383717835278699723, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 363713087}
     - target: {fileID: 6314845700861642900, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
       propertyPath: m_Name
       value: PegBlue (1)
@@ -5540,6 +5818,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2383717835278699723, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 363713087}
     - target: {fileID: 6314845700861642900, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
       propertyPath: m_Name
       value: PegBlue (4)
@@ -5691,6 +5973,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2383717835278699723, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 363713087}
     - target: {fileID: 6314845700861642900, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
       propertyPath: m_Name
       value: PegBlue (6)
@@ -5753,6 +6039,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2383717835278699723, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 363713087}
     - target: {fileID: 6314845700861642900, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
       propertyPath: m_Name
       value: PegBlue (4)
@@ -5815,6 +6105,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2383717835278699723, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 363713087}
     - target: {fileID: 6314845700861642900, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
       propertyPath: m_Name
       value: PegBlue (8)
@@ -6014,6 +6308,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2383717835278699723, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 363713087}
     - target: {fileID: 6314845700861642900, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
       propertyPath: m_Name
       value: PegBlue (5)
@@ -6141,6 +6439,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2383717835278699723, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 363713087}
     - target: {fileID: 6314845700861642900, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
       propertyPath: m_Name
       value: PegBlue (3)
@@ -6293,6 +6595,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2383717835278699723, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 363713087}
     - target: {fileID: 6314845700861642900, guid: fc4f5fcd155da3b4698083a7bf081431, type: 3}
       propertyPath: m_Name
       value: PegBlue
@@ -6384,3 +6690,4 @@ SceneRoots:
   - {fileID: 12011115}
   - {fileID: 176316809}
   - {fileID: 138580562}
+  - {fileID: 363713088}
