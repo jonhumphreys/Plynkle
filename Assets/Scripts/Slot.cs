@@ -5,6 +5,7 @@ using UnityEngine.SocialPlatforms.Impl;
 public class Slot : MonoBehaviour
 {
     public int Points = 10;
+    public UI Ui;
     
     public void OnTriggerEnter2D(Collider2D other)
     {
@@ -21,7 +22,7 @@ public class Slot : MonoBehaviour
 
     private void ScorePoints()
     {
-        print("scored " + Points);
         ScoreKeeper.AddScore(Points);
+        Ui.ShowScore(ScoreKeeper.GetScore());
     }
 }

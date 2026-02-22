@@ -12,7 +12,6 @@ public static class ScoreKeeper
     public static void AddScore(int amount)
     {
         score = score + amount;
-        MonoBehaviour.print(score);
     }
 
     public static void ResetScore()
