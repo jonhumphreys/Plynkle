@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1139146566492191077}
   - component: {fileID: 795195351513589352}
   - component: {fileID: 336006020515947239}
+  - component: {fileID: 2383717835278699723}
   m_Layer: 0
   m_Name: Peg
   m_TagString: Untagged
@@ -127,3 +128,18 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.36
+--- !u!114 &2383717835278699723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6314845700861642900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bd677f7be4854049bfacbb4e05d5cac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Peg
+  BlueSprite: {fileID: 21300000, guid: 19212b2c972b9564690c9ab40f8e3e3d, type: 3}
+  RedSprite: {fileID: 21300000, guid: 4ccc20f7de4aa6e4a96d33abd922e50f, type: 3}
+  GreenSprite: {fileID: 21300000, guid: 639361d61e77e0e4f9fcc944212daa47, type: 3}
