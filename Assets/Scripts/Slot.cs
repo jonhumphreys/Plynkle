@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class Slot : MonoBehaviour
 {
@@ -21,5 +22,6 @@ public class Slot : MonoBehaviour
     private void ScorePoints()
     {
         print("scored " + Points);
+        ScoreKeeper.AddScore(Points);
     }
 }
