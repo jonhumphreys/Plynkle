@@ -1,18 +1,22 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Peg : MonoBehaviour
 {
-    public Sprite BlueSprite;
-    public Sprite RedSprite;
-    public Sprite GreenSprite;
+    public List<Sprite> PegSprites;
 
     private int spriteNumber = 0;
     private SpriteRenderer spriteRenderer;
 
-    public void Start()
+    public void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
+    }
+    
+    public void Start()
+    {
+        spriteRenderer.sprite = PegSprites[0];
     }
     
     public void OnCollisionEnter2D(Collision2D other)
@@ -37,20 +41,13 @@ public class Peg : MonoBehaviour
 
     private void ChangeToNextColor()
     {
-        if (spriteNumber == 0)
-        {
-            spriteRenderer.sprite = GreenSprite;
-        }
-        else if (spriteNumber == 1)
-        {
-            spriteRenderer.sprite = RedSprite;
-        }
         spriteNumber = spriteNumber + 1;
+        spriteRenderer.sprite = PegSprites[spriteNumber];
     }
 
     private void DestroyPeg()
     {
-
+        Destroy(gameObject);
     }
 
     private bool NoMoreColorsLeft()
