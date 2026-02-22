@@ -160,51 +160,6 @@ Transform:
   - {fileID: 1697305135}
   m_Father: {fileID: 90316295}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &41708115
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 41708117}
-  - component: {fileID: 41708116}
-  m_Layer: 0
-  m_Name: Dropper
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &41708116
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 41708115}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a329ee3d278da004993fc2854e945ba0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BallDropper
-  BallPrefab: {fileID: 280573409761483573, guid: 12f72d91bb3c14a4599602e3c1fc7ef3, type: 3}
---- !u!4 &41708117
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 41708115}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.56889, y: -0.83756, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &54782208
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3948,4 +3903,3 @@ SceneRoots:
   - {fileID: 478782958}
   - {fileID: 1702874613}
   - {fileID: 90316295}
-  - {fileID: 41708117}
