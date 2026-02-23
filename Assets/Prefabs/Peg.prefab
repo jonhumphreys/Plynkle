@@ -145,3 +145,4 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 639361d61e77e0e4f9fcc944212daa47, type: 3}
   - {fileID: 21300000, guid: 4ccc20f7de4aa6e4a96d33abd922e50f, type: 3}
   Sounds: {fileID: 0}
+  RingParticlePrefab: {fileID: 3024744363307688512, guid: f62f248c2af563b4c9036ca56630bd64, type: 3}
