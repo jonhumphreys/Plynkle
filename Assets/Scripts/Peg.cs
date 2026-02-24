@@ -6,6 +6,7 @@ public class Peg : MonoBehaviour
 {
     public List<Sprite> PegSprites;
     public Sounds Sounds;
+    public GameObject RingParticlePrefab;
 
     private int spriteNumber = 0;
     private SpriteRenderer spriteRenderer;
@@ -37,7 +38,13 @@ public class Peg : MonoBehaviour
         else
         {
             ChangeToNextColor();
+            SpawnRingParticle();
         }
+    }
+
+    private void SpawnRingParticle()
+    {
+        Instantiate(RingParticlePrefab, transform.position, Quaternion.identity);
     }
 
     private void ChangeToNextColor()
