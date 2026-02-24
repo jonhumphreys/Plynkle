@@ -55,7 +55,7 @@ public class Peg : MonoBehaviour
 
     private void DestroyPeg()
     {
-        Sounds.PlayCannonSound();
+        Sounds.PlayPegDestroySound();
         Destroy(gameObject);
     }
 
