@@ -91,3 +91,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ded59d0082e8b3249a55512bc7da7ced, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Slot
+  Points: 10
+  Ui: {fileID: 0}
+  FireworksParticlePrefab: {fileID: 1647855091463671475, guid: 79c053aa010124b46aff9e87185029a6, type: 3}
